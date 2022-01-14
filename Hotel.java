@@ -4,11 +4,13 @@ public class Hotel {
 
     public Hotel(String name) {
         this.name = name;
-        this.rooms = new Room[10];
-        rooms[0] = new SingleRoom(1);
+        this.rooms = new Room[6];
+        rooms[0] = new TwinRoom(1);
         rooms[1] = new DoubleRoom(2);
         rooms[2] = new DoubleRoom(3);
         rooms[3] = new DoubleRoom(4);
+        rooms[4] = new SingleRoom(5);
+        rooms[5] = new SingleRoom(6);
     }
 
     public String getName() {
