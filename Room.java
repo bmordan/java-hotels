@@ -1,6 +1,6 @@
-public class Room {
+public abstract class Room {
     private int number;
-    private Guest[] beds = {null, null};
+    protected Guest[] beds = {null, null};
 
     public Room(int number) {
         this.number = number;
